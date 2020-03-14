@@ -16,7 +16,12 @@ build/
 .sts4-cache
 
 ### IntelliJ IDEA ###
-.idea
+.idea/*
+!.idea/gradle.xml
+!.idea/misc.xml
+!.idea/codeStyles
+!.idea/saveactions_settings.xml
+!.idea/externalDependencies.xml
 *.iws
 *.iml
 *.ipr
